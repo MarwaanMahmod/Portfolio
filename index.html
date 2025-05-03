@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menuToggle" aria-label="Toggle menu">☰</button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div>
+                <h1>Hi, I'm Marwan</h1>
+                <p>A passionate web developer</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/kix.jpg" alt="Profile Picture" class="profile-image">
+            <p>I am a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development and enjoy turning complex problems into simple, beautiful solutions.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">PHP</div>
+                <div class="skill">Laravel</div>
+                <div class="skill">React</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal website to showcase my work and skills, built with HTML, CSS, and JavaScript.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Blog Application</h3>
+                    <p>A simple CRUD blog app built with PHP and Laravel.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>E-Commerce Store</h3>
+                    <p>An online store built with React, Node.js, and MongoDB.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="errorMessage"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
