@@ -1,1 +1,5 @@
-task
+![s1](https://github.com/user-attachments/assets/2e0a6707-ee14-4434-b5db-12ce6d1ee484)
+![s2](https://github.com/user-attachments/assets/fe400993-62d5-4f34-9918-aad36f54b25e)
+![s3](https://github.com/user-attachments/assets/e011a3b8-29bc-478e-9962-92e821cf3cb3)
+![s4](https://github.com/user-attachments/assets/d6458a97-44bd-41f0-9642-92a02ebafa91)
+![s5](https://github.com/user-attachments/assets/109c70d1-6b69-4a61-9f5b-cf6d2047723b)
